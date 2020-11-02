@@ -1,0 +1,21 @@
+Package: datalabii
+Type: Package
+Title: R Package Hosted on Github for Data Lab II
+Version: 0.1.0
+Author: Rahul Joseph Fernandez
+Maintainer: Current Maintainer <rahuljfernandez@gmail.com>
+Description: This package contains two functions that explore some aspects of the DRG Dataset.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Imports:
+    tidyverse,
+    tidyr,
+    dplyr,
+    ggplot2,
+    magrittr,
+    stringr,
+    ggdark
+RoxygenNote: 7.1.1

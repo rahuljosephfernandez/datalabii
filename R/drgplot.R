@@ -32,8 +32,6 @@ drg_plot <- function(option) {
 
     geom_boxplot(outlier.size = 0.2)+ # outlier point size changes
 
-    dark_theme_minimal()+
-
     coord_flip()+
 
     xlab(paste0(str_replace_all(option, "[[:punct:]]", " "), " (USD)"))+ # axis label
